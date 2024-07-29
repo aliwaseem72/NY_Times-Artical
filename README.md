@@ -8,7 +8,6 @@ This project is a simple iOS app that displays the most popular articles from th
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Coverage](#code-coverage)
 - [Best Practices](#best-practices)
 
 ## Features
@@ -46,3 +45,25 @@ The app follows the MVVM-R (Model-View-ViewModel-Router) architecture pattern, p
 
 2. Open Project
    open NYTimesMostPopularArticles.xcodeproj
+
+   ## Usage
+   
+1. Build and run the project in Xcode.
+2. The app will fetch and display the most popular articles from the New York Times.
+3. Tap on any article to view its details
+
+
+# Best Practices
+The project adheres to the following best practices:
+
+1. Object-Oriented Programming: The app uses OOP principles to encapsulate data and behavior.
+
+2. Good UI Approach (MVVM-R): The Project is designed using the Model-View-ViewModel pattern.
+
+3. Generic and Simple Code: The code is kept simple and reusable where possible.
+
+4. Image Caching: Images are cached to optimize performance and reduce network load.
+
+5. No Third-Party Libraries: The project avoids third-party libraries for better control and understanding of the codebase.
+
+
