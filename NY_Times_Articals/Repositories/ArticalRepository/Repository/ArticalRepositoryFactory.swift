@@ -10,7 +10,7 @@ import Foundation
 /**
  A factory class for creating instances of `ArticalRepository`.
  */
-final class ArticalRepositoryFactory {
+final class ArticalRepositoryFactory: RepositoryFactoryProtocol {
 
     /// Type alias for `ArticalRepository`
     typealias Repository = ArticalRepository
